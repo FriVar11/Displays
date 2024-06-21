@@ -1,0 +1,56 @@
+/*Selector de tipo(etiquetas)  => .nombreEtiqueta {}*/
+
+body{
+    /*Regla de css*/
+    /*Propiedad:valor*/
+    background-color:rgb(143, 204, 226);
+}
+
+.ejemplo {
+    height: 500px;
+    width: 1000px;
+    background-color:rgb(236, 188, 240);
+}
+
+.displayBlock{
+    display:block;
+    background-color:rgb(153, 92, 228);
+}
+
+.displayBlockConTamanio{
+    display:block;
+    background-color:rgb(153, 92, 228);
+
+    width:100px;
+    height:100px;
+}
+
+.displayInLine{
+    display:inline;
+    background-color:rgb(137, 228, 92);
+}
+
+.displayInLineConTamanio{
+    display:inline;
+    background-color:rgb(137, 228, 92);
+
+    width:100px;
+    height:100px;
+}
+
+.displayInLineBlock{
+    display:inline-block;
+    background-color:rgb(70, 42, 149);
+}
+
+.tamanio{
+    width:700px;
+}
+
+.displayInLineBlockConTamanio{
+    display:inline-block;
+    background-color:rgb(70, 42, 149);
+
+    width:100px;
+    height:100px;
+}
